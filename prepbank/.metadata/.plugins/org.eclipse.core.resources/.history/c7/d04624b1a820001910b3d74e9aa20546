@@ -1,0 +1,8 @@
+server.port=7878
+#spring.jpa.show-sql=true
+#spring.jpa.hibernate.ddl-auto=create
+
+spring.application.name=Account
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=Account
+spring.data.mongodb.host=localhost

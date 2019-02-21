@@ -1,0 +1,5 @@
+package com.cg.app.HelloWorldService.controller;
+
+public class HelloWorldWebService {
+
+}

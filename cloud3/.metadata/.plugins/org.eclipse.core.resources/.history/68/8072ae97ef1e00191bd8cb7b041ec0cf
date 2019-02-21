@@ -1,0 +1,2 @@
+spring.application.name=helloworld
+spring.cloud.config.server.git.uri=https://localhost:8888

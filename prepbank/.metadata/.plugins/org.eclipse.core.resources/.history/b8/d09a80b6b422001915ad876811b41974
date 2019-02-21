@@ -1,0 +1,5 @@
+server.port=8080
+spring.application.name=zuulServer
+ribbon.eureka.enabled=false
+zuul.routes.Transaction.url=http://localhost:9098
+ 

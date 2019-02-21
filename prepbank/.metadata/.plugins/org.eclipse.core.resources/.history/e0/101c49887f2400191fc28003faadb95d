@@ -1,0 +1,5 @@
+package com.cg.app.Transaction.sender;
+
+public class Sender {
+
+}

@@ -1,0 +1,14 @@
+package com.cg.app.helloWorldClients;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class HelloWorldClientsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(HelloWorldClientsApplication.class, args);
+	}
+
+}
+

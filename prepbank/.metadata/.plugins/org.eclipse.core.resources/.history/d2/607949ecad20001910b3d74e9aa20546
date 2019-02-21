@@ -1,0 +1,5 @@
+server.port=6068
+spring.application.name=website
+spring.mvc.view.prefix=/WEB-INF/jsp/
+spring.mvc.view.suffix=.jsp
+eureka.client.serviceUrl.defaultZone:http://localhost:8787/eureka

@@ -1,0 +1,2 @@
+spring.application.name=helloworld
+spring.cloud.config.uri=https://localhost:8888

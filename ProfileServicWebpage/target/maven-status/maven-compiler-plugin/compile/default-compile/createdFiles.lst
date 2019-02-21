@@ -1,0 +1,4 @@
+com\cg\app\ProfileServicWebpage\ProfileServicWebpageApplication.class
+com\cg\app\ProfileServicWebpage\Entity\Address.class
+com\cg\app\ProfileServicWebpage\Entity\Profile.class
+com\cg\app\ProfileServicWebpage\resource\ProfileWebpageResource.class

@@ -1,0 +1,4 @@
+spring.application.name=application
+spring.cloud.config.uri=http://localhost:8888
+eureka.client.fetchRegistry=true
+eureka.client.Registry-with-eureka=false

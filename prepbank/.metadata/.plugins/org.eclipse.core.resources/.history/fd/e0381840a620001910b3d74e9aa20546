@@ -1,0 +1,7 @@
+server.port=6068
+spring.application.name=website
+spring.mvc.view.prefix=/WEB-INF/jsp/
+spring.mvc.view.suffix=.jsp
+eureka.client.register-with-eureka=false
+
+eureka.client.fetch-registry=false

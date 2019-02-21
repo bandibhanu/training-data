@@ -1,0 +1,5 @@
+package com.cg.app.APIGateWay.Controller;
+
+public class ApiGateWayController {
+
+}

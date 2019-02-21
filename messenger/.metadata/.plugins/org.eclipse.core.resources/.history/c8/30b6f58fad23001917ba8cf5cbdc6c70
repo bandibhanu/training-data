@@ -1,0 +1,5 @@
+package com.cg.app.MessengeReceiver.service;
+
+public class ReceiverService {
+
+}

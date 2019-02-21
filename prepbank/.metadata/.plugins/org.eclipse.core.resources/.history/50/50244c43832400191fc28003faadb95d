@@ -1,0 +1,21 @@
+package com.cg.app.Account.receiver;
+
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.cg.app.Account.controller.AccountController;
+import com.cg.app.Account.entity.Transaction;
+
+@Component
+public class Receiver {
+
+	@Autowired
+	private AccountController control;
+	
+	@RabbitListener(queues = "transactionQ")
+	public void receiver(Transaction transaction)
+	{
+		control.updateBalance(transaction);
+	}
+}
